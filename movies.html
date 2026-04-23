@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Library — Download Bollywood, Hollywood, South Movies on Telegram</title>
+  <meta name="description" content="Browse 50,000+ movies by genre. Bollywood, Hollywood, South Indian, Anime, Web Series. Download instantly on Telegram Bot.">
+  <meta name="keywords" content="bollywood movies download, hollywood movie telegram, south indian movie bot, anime telegram, web series download">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">🎬 MovieBot</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html" style="color:#fff;">Movies</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a href="https://t.me/extractkrlo_bot" target="_blank" class="nav-cta">Open Bot →</a>
+      <button class="menu-toggle" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+
+  <section class="hero" style="min-height:50vh; padding-top:120px; padding-bottom:40px;">
+    <div class="hero-content">
+      <h1>Movie <span>Library</span></h1>
+      <p>Browse by genre. Click any movie to download on Telegram.</p>
+      <form class="hero-search" id="hero-search-form">
+        <input type="text" id="search-input" placeholder="Search movies... e.g. KGF Chapter 2">
+        <button type="submit">Search →</button>
+      </form>
+    </div>
+  </section>
+
+  <section style="padding-top:20px;">
+    <div class="container">
+      <div class="genre-tabs">
+        <button class="genre-tab active" data-genre="all">🎬 All</button>
+        <button class="genre-tab" data-genre="bollywood">🇮🇳 Bollywood</button>
+        <button class="genre-tab" data-genre="hollywood">🇺🇸 Hollywood</button>
+        <button class="genre-tab" data-genre="south">🎭 South</button>
+        <button class="genre-tab" data-genre="anime">🎌 Anime</button>
+        <button class="genre-tab" data-genre="webseries">📺 Web Series</button>
+      </div>
+
+      <div class="movies-grid">
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="bollywood">
+          <img src="https://image.tmdb.org/t/p/w300/bBON9s9aRwGMc6UjZBJgJqNMoZS.jpg" alt="Pushpa 2 The Rule Download Telegram" loading="lazy">
+          <div class="movie-badge">NEW</div>
+          <div class="movie-overlay"><h4>Pushpa 2: The Rule</h4><span>Bollywood • 2024 • HD</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="bollywood">
+          <img src="https://image.tmdb.org/t/p/w300/cdqLnri3NEGcmfnqwk2TSIYrJ1S.jpg" alt="Animal Movie Download" loading="lazy">
+          <div class="movie-overlay"><h4>Animal</h4><span>Bollywood • 2023 • 1080p</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="bollywood">
+          <img src="https://image.tmdb.org/t/p/w300/tDKOiZnOVuzmJBWnq4v6xE3bS0q.jpg" alt="Jawan Movie Download" loading="lazy">
+          <div class="movie-badge">HD</div>
+          <div class="movie-overlay"><h4>Jawan</h4><span>Bollywood • 2023 • HD</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="hollywood">
+          <img src="https://image.tmdb.org/t/p/w300/aosm8bFnknMnMj6TAfaxRCiGnev.jpg" alt="Oppenheimer Download" loading="lazy">
+          <div class="movie-overlay"><h4>Oppenheimer</h4><span>Hollywood • 2023 • 4K</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="hollywood">
+          <img src="https://image.tmdb.org/t/p/w300/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Avengers Endgame Download" loading="lazy">
+          <div class="movie-overlay"><h4>Avengers: Endgame</h4><span>Hollywood • 2019 • HD</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="hollywood">
+          <img src="https://image.tmdb.org/t/p/w300/qJ2tW6WMUDux911BTUgMe1nNaD3.jpg" alt="Interstellar Download Telegram" loading="lazy">
+          <div class="movie-badge">4K</div>
+          <div class="movie-overlay"><h4>Interstellar</h4><span>Hollywood • 2014 • 4K</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="south">
+          <img src="https://image.tmdb.org/t/p/w300/pWsD91G2R1Da3AKM3ymr3UoIfRb.jpg" alt="RRR Movie Download" loading="lazy">
+          <div class="movie-overlay"><h4>RRR</h4><span>South • 2022 • HD</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="south">
+          <img src="https://image.tmdb.org/t/p/w300/9z4jRr43JdtU66P0iy8h18OyLql.jpg" alt="KGF Chapter 2 Download" loading="lazy">
+          <div class="movie-badge">HD</div>
+          <div class="movie-overlay"><h4>KGF Chapter 2</h4><span>South • 2022 • 1080p</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="anime">
+          <img src="https://image.tmdb.org/t/p/w300/hPkqY2EMqWUnFEoedukilIUieVG.jpg" alt="Demon Slayer Download" loading="lazy">
+          <div class="movie-overlay"><h4>Demon Slayer</h4><span>Anime • 2023</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="webseries">
+          <img src="https://image.tmdb.org/t/p/w300/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg" alt="Money Heist Download" loading="lazy">
+          <div class="movie-overlay"><h4>Money Heist</h4><span>Web Series • All Seasons</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="bollywood">
+          <img src="https://image.tmdb.org/t/p/w300/vJU3rXSP9hwUuLeq8IpfsJShLOk.jpg" alt="Dangal Download" loading="lazy">
+          <div class="movie-overlay"><h4>Dangal</h4><span>Bollywood • 2016 • HD</span></div>
+        </a>
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="movie-card" data-genre="hollywood">
+          <img src="https://image.tmdb.org/t/p/w300/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg" alt="The Dark Knight Download" loading="lazy">
+          <div class="movie-overlay"><h4>The Dark Knight</h4><span>Hollywood • 2008 • 4K</span></div>
+        </a>
+      </div>
+
+      <div style="text-align:center; margin-top:50px;">
+        <a href="https://t.me/extractkrlo_bot" target="_blank" class="cta-btn">🔍 Search More Movies on Bot →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" style="margin-top:60px;">
+    <h2>Can't Find Your Movie? 🎬</h2>
+    <p>Search directly on our bot — 50,000+ movies available instantly.</p>
+    <a href="https://t.me/extractkrlo_bot" target="_blank" class="cta-btn">🚀 Open Bot on Telegram</a>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">© 2024 MovieBot. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

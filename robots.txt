@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moviebot.example.com/sitemap.xml

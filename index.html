@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieBot — Free Movie Download Telegram Bot | 50,000+ Movies</title>
+  <meta name="description" content="Search and download any Bollywood, Hollywood, South Indian movie instantly on Telegram. 50,000+ movies available. Free to use with premium plans.">
+  <meta name="keywords" content="telegram movie bot, free movie download, bollywood movie bot, hollywood movie telegram, movie search bot, latest movie download">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="MovieBot — Free Movie Download Telegram Bot">
+  <meta property="og:description" content="Search any movie, get it instantly on Telegram. 50,000+ movies in HD quality.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://moviebot.example.com/">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"MovieBot","description":"Telegram bot to search and download movies instantly","applicationCategory":"Entertainment","operatingSystem":"All","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"}}
+  </script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">🎬 MovieBot</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a href="https://t.me/extractkrlo_bot" target="_blank" class="nav-cta">Open Bot →</a>
+      <button class="menu-toggle" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">🔥 #1 Movie Bot on Telegram</div>
+      <h1>Search Any Movie.<br><span>Get It Instantly.</span></h1>
+      <p>50,000+ Bollywood, Hollywood & South Indian movies. Search, click, download — all on Telegram.</p>
+      
+      <form class="hero-search" id="hero-search-form">
+        <input type="text" id="search-input" placeholder="Search any movie... e.g. Pushpa 2" autocomplete="off">
+        <button type="submit">Search →</button>
+      </form>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num" data-target="50000">0+</div>
+          <div class="stat-label">Movies</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="25000">0+</div>
+          <div class="stat-label">Users</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="100000">0+</div>
+          <div class="stat-label">Downloads</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how-it-works">
+    <div class="container">
+      <div class="section-title fade-in">
+        <h2>How It <span>Works</span></h2>
+        <p>Get any movie in 3 simple steps</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card fade-in">
+          <div class="step-num">1</div>
+          <h3>Join Our Channel</h3>
+          <p>Join @movies_updates00 on Telegram to get started with the bot.</p>
+        </div>
+        <div class="step-card fade-in">
+          <div class="step-num">2</div>
+          <h3>Search Any Movie</h3>
+          <p>Type any movie name in the bot. Get instant results with quality options.</p>
+        </div>
+        <div class="step-card fade-in">
+          <div class="step-num">3</div>
+          <h3>Download & Watch</h3>
+          <p>Click the file and download it. Forward to Saved Messages for permanent access.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRENDING MOVIES -->
+  <section id="trending" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="section-title fade-in">
+        <h2>🔥 <span>Trending</span> Right Now</h2>
+        <p>Most searched movies this week</p>
+      </div>
+      <div class="movies-grid fade-in">
+        <div class="movie-card" data-genre="bollywood">
+          <img src="https://image.tmdb.org/t/p/w300/bBON9s9aRwGMc6UjZBJgJqNMoZS.jpg" alt="Pushpa 2" loading="lazy">
+          <div class="movie-badge">NEW</div>
+          <div class="movie-overlay"><h4>Pushpa 2</h4><span>Bollywood • 2024</span></div>
+        </div>
+        <div class="movie-card" data-genre="hollywood">
+          <img src="https://image.tmdb.org/t/p/w300/aosm8bFnknMnMj6TAfaxRCiGnev.jpg" alt="Oppenheimer" loading="lazy">
+          <div class="movie-overlay"><h4>Oppenheimer</h4><span>Hollywood • 2023</span></div>
+        </div>
+        <div class="movie-card" data-genre="bollywood">
+          <img src="https://image.tmdb.org/t/p/w300/cdqLnri3NEGcmfnqwk2TSIYrJ1S.jpg" alt="Animal" loading="lazy">
+          <div class="movie-badge">HD</div>
+          <div class="movie-overlay"><h4>Animal</h4><span>Bollywood • 2023</span></div>
+        </div>
+        <div class="movie-card" data-genre="hollywood">
+          <img src="https://image.tmdb.org/t/p/w300/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Avengers Endgame" loading="lazy">
+          <div class="movie-overlay"><h4>Avengers: Endgame</h4><span>Hollywood • 2019</span></div>
+        </div>
+        <div class="movie-card" data-genre="south">
+          <img src="https://image.tmdb.org/t/p/w300/pWsD91G2R1Da3AKM3ymr3UoIfRb.jpg" alt="RRR" loading="lazy">
+          <div class="movie-overlay"><h4>RRR</h4><span>South • 2022</span></div>
+        </div>
+        <div class="movie-card" data-genre="hollywood">
+          <img src="https://image.tmdb.org/t/p/w300/qJ2tW6WMUDux911BTUgMe1nNaD3.jpg" alt="Interstellar" loading="lazy">
+          <div class="movie-badge">4K</div>
+          <div class="movie-overlay"><h4>Interstellar</h4><span>Hollywood • 2014</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANS -->
+  <section id="plans">
+    <div class="container">
+      <div class="section-title fade-in">
+        <h2>Premium <span>Plans</span></h2>
+        <p>Unlimited downloads at unbeatable prices</p>
+      </div>
+      <div class="plans-grid fade-in">
+        <div class="plan-card">
+          <div class="plan-icon">🆓</div>
+          <div class="plan-name">Free</div>
+          <div class="plan-price">₹0</div>
+          <ul class="plan-features">
+            <li>1 download per day</li>
+            <li>2 min auto-delete</li>
+            <li>480p quality</li>
+            <li>Basic search</li>
+          </ul>
+          <a href="https://t.me/extractkrlo_bot" target="_blank" class="plan-btn">Start Free →</a>
+        </div>
+        <div class="plan-card popular">
+          <div class="plan-icon">💎</div>
+          <div class="plan-name">Gold</div>
+          <div class="plan-price">₹79 <span>/month</span></div>
+          <ul class="plan-features">
+            <li>Unlimited downloads</li>
+            <li>15 min auto-delete</li>
+            <li>1080p HD quality</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="https://t.me/extractkrlo_bot?start=plans" target="_blank" class="plan-btn">Get Gold →</a>
+        </div>
+        <div class="plan-card">
+          <div class="plan-icon">🏆</div>
+          <div class="plan-name">Royal</div>
+          <div class="plan-price">₹599 <span>/year</span></div>
+          <ul class="plan-features">
+            <li>Unlimited downloads</li>
+            <li>No auto-delete ♾️</li>
+            <li>4K quality</li>
+            <li>VIP support + early access</li>
+          </ul>
+          <a href="https://t.me/extractkrlo_bot?start=plans" target="_blank" class="plan-btn">Get Royal →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="reviews" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="section-title fade-in">
+        <h2>What Users <span>Say</span></h2>
+        <p>Trusted by 25,000+ movie lovers</p>
+      </div>
+      <div class="testimonials-grid fade-in">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Instant download! Maine Pushpa 2 search ki aur 10 second mein mil gayi. Gold plan liya — best decision!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">R</div>
+            <div><div class="testimonial-name">Rahul S.</div><div class="testimonial-plan">💎 Gold Plan User</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"50,000+ movies hai! Kuch bhi search karo, mil jaata hai. Hollywood, Bollywood sab. Bahut fast hai."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">P</div>
+            <div><div class="testimonial-name">Priya M.</div><div class="testimonial-plan">🆓 Free User</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Royal plan worth it hai! No auto-delete, 4K quality. Paise vasool. Sabko recommend karunga."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A</div>
+            <div><div class="testimonial-name">Amit K.</div><div class="testimonial-plan">🏆 Royal Plan User</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <h2>Ready to Watch? 🎬</h2>
+    <p>Join 25,000+ users. Search any movie, get it in seconds.</p>
+    <a href="https://t.me/extractkrlo_bot" target="_blank" class="cta-btn">🚀 Open Bot on Telegram</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">🎬 MovieBot</div>
+          <p>India's #1 Telegram Movie Bot. Search, download & enjoy 50,000+ movies instantly.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="movies.html">Movies</a>
+          <a href="about.html">About / FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Telegram</h4>
+          <a href="https://t.me/extractkrlo_bot" target="_blank">🤖 Open Bot</a>
+          <a href="https://t.me/movies_updates00" target="_blank">📢 Channel</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2024 MovieBot. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
